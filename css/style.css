@@ -1,0 +1,191 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #333333;
+    overflow-x: hidden;
+}
+
+.navbar-go{
+    background-color: #222222;
+}
+
+.navbar-go a{
+    color: #F7F7F7;
+}
+
+.csGlow{
+    font-size: 21px;
+    color: #F7F7F7;
+}
+
+.dummy{
+    height: 85vh;
+}
+
+.page-footer{
+    background-color: #222222;
+    color: #F7F7F7;
+}
+
+.branding{
+    border-right: 1px solid #F7F7F7;
+}
+
+.b-image img{
+    width: 25px;
+    height: 25px;
+}
+
+.bottom-brand{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.weapon-1{
+    background: url(../pictor/pistols/360fx360f.png) center center no-repeat, radial-gradient(ellipse at center, #B3135D -100%, transparent 30%);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    -webkit-filter: drop-shadow(0 0 10px #B3135D);
+    filter: drop-shadow(0 0 10px #B3135D);
+    transition: filter .25s ease-in;
+}
+
+.weapon-1:hover{
+    -webkit-filter: drop-shadow(0 0 11px #E5157D);
+    filter: drop-shadow(0 0 11px #E5157D);
+}
+
+.weapon-2{
+    background: url(../pictor/pistols/desert-eagle.png) center center no-repeat, radial-gradient(ellipse at center, #DA9B0E -100%, transparent 30%);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    -webkit-filter: drop-shadow(0 0 10px #DA9B0E);
+    filter: drop-shadow(0 0 10px #DA9B0E);
+    transition: filter .25s ease-in;
+}
+
+.weapon-2:hover{
+    -webkit-filter: drop-shadow(0 0 11px #FFAA00);
+    filter: drop-shadow(0 0 11px #FFAA00);
+}
+
+.weapon-3{
+    background: url(../pictor/pistols/five-seven.png) center center no-repeat, radial-gradient(ellipse at center, #2C18AF -100%, transparent 30%);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    -moz-filter: drop-shadow(0 0 10px #2C18AF);
+    -webkit-filter: drop-shadow(0 0 10px #2C18AF);
+    filter: drop-shadow(0 0 10px #2C18AF);
+    transition: filter 0.25s ease;
+}
+
+.weapon-3:hover{
+    -webkit-filter: drop-shadow(0 0 11px #2213E5);
+    filter: drop-shadow(0 0 11px #2213E5);
+}
+
+.weapon-4{
+    background: url(../pictor/pistols/glock.png) center center no-repeat,  radial-gradient(ellipse at center, #AC29C3 -100%, transparent 30%);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    -moz-filter: drop-shadow(0 0 10px #AC29C3);
+    -webkit-filter: drop-shadow(0 0 10px #AC29C3);
+    filter: drop-shadow(0 0 10px #AC29C3);
+    transition: filter 0.5s ease;
+}
+
+.weapon-4:hover{
+    -webkit-filter: drop-shadow(0 0 11px #CE16F4);
+    filter: drop-shadow(0 0 11px #CE16F4);
+}
+
+
+/* x on click *//* x on click *//* x on click */
+/* x on click *//* x on click *//* x on click */
+/* x on click *//* x on click *//* x on click */
+
+#nav {
+  width: 35px;
+  height: 25px;
+  position: relative;
+  margin: 10px 0 10px 10px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #F0F4E4;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav span:nth-child(1) {
+  top: 0px;
+}
+
+#nav span:nth-child(2),
+#nav span:nth-child(3) {
+  top: 8px;
+}
+
+#nav span:nth-child(4) {
+  top: 16px;
+}
+
+#nav.open span:nth-child(1) {
+  top: 8px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav.open span:nth-child(2) {
+  width: 35px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav.open span:nth-child(3) {
+  width: 35px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav.open span:nth-child(4) {
+  top: 8px;
+  width: 0%;
+  left: 50%;
+}
+
+
+/* X on click *//* X on click *//* X on click */
+/* X on click *//* X on click *//* X on click */
+/* X on click *//* X on click *//* X on click */
